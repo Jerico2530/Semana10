@@ -1,0 +1,8 @@
+@server = https://jerico2530-laughing-carnival-v4jwxq7jvjwhxxvp-8080.preview.app.github.dev
+###
+GET {{server}}/api/employees 
+###
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{"firstName": "Alfred", "lastName": "Huarcaya", "description": "Se logro Muchachos"}
